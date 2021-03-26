@@ -1,0 +1,39 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: sans-serif;
+}
+#nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar
+{
+	background-image:linear-gradient(to right,#a517ba,#5f1782);
+	padding: o!important;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+	color: #fff !important;
+	font-weight: 600;
+
+}
+/*------------banner----------*/
+#banner
+{
+
+	background-image: linear-gradient(to right,#a517ba,#5f1782);
+	color: #fff;
+	padding-top: 5%;
+}
+.serv{
+	height:20px;
+	width:30px;
+}

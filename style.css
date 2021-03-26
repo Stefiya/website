@@ -1,0 +1,217 @@
+ 
+ .container{ 
+  
+  text-align:center;
+	 max-width:1140px;
+	 padding-right:15px;
+	 padding-left:15px;
+	 margin-right:auto;
+	 margin-left:auto;
+  }
+ .banner{
+	  background-image:url("21.jfif");
+	  background-size:cover;
+  }
+  .banner h1{
+	  text-transform:uppercase;
+	  font-size:45px;
+	  font-weight:bolder;
+    }
+/*    nav section style start */
+
+.menubar {
+	background-color:black;
+	text-align:center;
+	font-size:30px;
+}
+
+.menubar ul{	
+	list-style:none;
+	display:inline-flex;
+}
+.menubar ul li a{	
+	color:white;
+	text-decoration:none;	
+}
+.menubar ul li{
+	padding:15px;
+}
+.menubar ul li:hover{
+	background-color:red;
+	border-radius:10px;
+}
+.menubar ul li:hover .submenu{
+	display:block;
+	position:absolute;
+	background-color:black;
+	border-radius:10px;
+	margin-top:15px;
+	margin-left:-15px;
+	padding:10px;
+
+}
+.menubar ul li:hover .submenu ul{
+	display:block;
+	margin-left:-30px;
+}
+.menubar ul li:hover .submenu ul li{
+	padding:10px;
+	border-bottom:1px solid red;
+	border-radius:0px;
+}
+.menubar ul li .submenu ul li{
+	background-color:1px solid red;
+	
+}
+/*    nav section style end */
+/*content start*/
+.col{
+	margin:20px;
+	background-color:rgba(0,0,0,0.4);
+	width:450px;
+	text-align:center;
+	padding:15px;
+	height:350px;
+}
+
+/*content end */
+.mt-5{
+	   margin-top:3rem;
+   }
+.ft{
+	background-color:black;
+	text-align:center;
+}
+.pp{
+	color:black;
+}
+.py-5{
+	  padding-top:3rem;
+	  padding-bottom:3rem;
+  }
+
+
+
+body, html {
+    height: 100%;
+}
+.gal
+	{
+	text-align:center;
+	}
+.gal img{
+	width:300px;
+	height:150px;
+	margin:30px;
+	box-shadow:10px 10px 5px gray;
+	filter:grayscale(0%);
+	transition:1s;
+	
+}
+
+.gal img:hover {
+	
+	filter:grayscale(0%);
+	transform:scale(1.2);
+	cursor:pointer;
+}
+
+
+/* The hero image */
+.hero-image {
+  background-color:white;
+  color:black;
+  height: 80%;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-image1 {
+	color:black;
+  background-color:black;
+  height: 80%;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+/* Place text in the middle of the image */
+.hero-text {
+	  color:black;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.avatar {
+	color:black;
+	
+  vertical-align: left;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.co{
+	background-color:gray;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.img1{
+	width:100%;
+	height:650px;
+}
+h1{
+	color:white;
+}
+.div1{
+	text-align:center;
+	margin-left:200px;
+}
+
+.mySlides{
+	width:800px;
+	height:600px;
+}
+.btnright{
+	position:absolute;
+	margin-top:-300px;
+	margin-left:245px;
+}
+/*services*/
+.row1{
+	display:inline-flex;
+}
+.coll{
+	height:270px;
+	width:270px;
+	background-color:rgba(255,255,255,1);
+	margin:10px;
+	border-radius:20px;
+}
+.vh{
+	margin-top:100px;
+	color:rgba(0,0,0,1);
+}
+.mt{
+	margin-left:600px;
+}
+ll{
+	color:black;
+	
+}
